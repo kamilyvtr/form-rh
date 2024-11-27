@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Conexão RH</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Conexão RH</h1>
+    <p>Simplificando conexões entre talentos e oportunidades</p>
+  </header>
+  <section class="formulario-container">
+    <h2>Informações Profissionais</h2>
+    <form>
+      <label for="cargo">Cargo Pretendido:</label>
+      <input type="text" id="cargo" name="cargo" required>
+
+      <label for="departamento">Departamento:</label>
+      <select id="departamento" name="departamento">
+        <option value="administrativo">Administrativo</option>
+        <option value="financeiro">Financeiro</option>
+        <option value="tecnologia">Tecnologia</option>
+      </select>
+
+      <label for="experiencia">Experiência Profissional:</label>
+      <textarea id="experiencia" name="experiencia" rows="4" placeholder="Descreva sua experiência..."></textarea>
+
+      <label for="salario">Salário Pretendido:</label>
+      <input type="text" id="salario" name="salario" required>
+
+      <button type="submit">Enviar Cadastro</button>
+    </form>
+  </section>
+</body>
+</html>
